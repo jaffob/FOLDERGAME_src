@@ -19,3 +19,4 @@
 #include <iostream>
 #include <fstream>
 #include "windows.h"
+#include "signal.h"

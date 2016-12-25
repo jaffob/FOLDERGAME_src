@@ -19,7 +19,7 @@ bool Minigame1::play()
 	solnx = solny = 0;
 
 	while (true)
-	{
+	{ 
 		// Make sure the current location is in bounds and walkable.
 		if (!isInBounds(x, y)) return false;
 		map.get_pixel(x, y, mc);
